@@ -1,0 +1,107 @@
+Crie uma apresentacao em PT-BR com 9 slides sobre a evolucao da sprint do projeto OmniMarket, um TCC de Tecnico em Desenvolvimento de Sistemas da ETEC. O publico principal e banca/professor, entao o tom deve ser academico, claro, objetivo e profissional. A duracao total da fala deve caber em 6 a 8 minutos.
+
+Regras importantes:
+- Nao exagere maturidade de partes que ainda estao em estrutura.
+- O projeto esta mais forte no back-end e no modulo financeiro.
+- Web e Mobile devem aparecer como frentes em evolucao, nao como modulos totalmente prontos.
+- Evite linguagem de marketing exagerada.
+- Nao invente dashboards complexos, aplicativos completos ou mockups irreais.
+- Se precisar de apoio visual, prefira icones, diagramas simples, cards, linhas do tempo e blocos de arquitetura.
+
+Direcao visual:
+- Estilo limpo, academico e moderno.
+- Paleta em azul escuro, cinza, branco e pequenos destaques em azul claro.
+- Tipografia profissional e sobria.
+- Layout com titulos fortes, 3 a 5 bullets por slide e pouco texto por bloco.
+- Visual coerente com apresentacao de TCC e sprint.
+
+Estrutura obrigatoria dos slides:
+
+Slide 1 - Capa
+Titulo: OmniMarket - Apresentacao de Sprint
+Subtitulo: TCC - Tecnico em Desenvolvimento de Sistemas - ETEC
+Conteudo:
+- Marketplace P2P para conectar compradores e vendedores.
+- Apresentacao do andamento atual do projeto.
+- Sprint com foco em consolidacao do back-end e avancos no financeiro.
+
+Slide 2 - Visao geral do projeto
+Titulo: Visao Geral do OmniMarket
+Conteudo:
+- Plataforma de marketplace com multiplos vendedores.
+- Proposta de reduzir barreiras para pequenos empreendedores.
+- Estrutura pensada para cadastro, produtos, pedidos e pagamentos.
+- Projeto academico com aplicacao pratica de full stack e integracao de sistemas.
+
+Slide 3 - Arquitetura atual
+Titulo: Arquitetura Atual da Solucao
+Conteudo:
+- Back-end em C# com .NET 9.
+- Entity Framework Core para persistencia em SQL Server.
+- Autenticacao com JWT e controle de acesso por perfil.
+- Painel admin web em HTML, CSS e JavaScript.
+- Frentes Web e Mobile separadas no repositorio, ainda em fase estrutural.
+
+Slide 4 - O que ja foi entregue
+Titulo: Entregas Ja Concluidas
+Conteudo:
+- Cadastro de usuarios, login e autenticacao.
+- Enderecos e telefones vinculados ao usuario.
+- Cadastro e gerenciamento de lojas.
+- Cadastro, status e controle de produtos.
+- Carrinho, pedidos e fluxo de compra.
+- Painel admin com dashboard e consultas operacionais.
+
+Slide 5 - Destaque da sprint atual
+Titulo: Destaque da Sprint: Modulo Financeiro
+Conteudo:
+- Criacao de plano de pagamento por pedido.
+- Separacao financeira por vendedor dentro do mesmo pedido.
+- Regra de comissao aplicada por venda.
+- Controle de repasse, recibo e historico financeiro.
+- Webhook e conciliacao preparados para evolucao futura.
+
+Slide 6 - Demonstracao e validacao
+Titulo: Como o Modulo Foi Validado
+Conteudo:
+- Endpoints financeiros disponiveis na API e no Swagger.
+- Collection Postman com cenarios prontos para demonstracao.
+- Simulacao de gateway com confirmacao fake.
+- Cenarios de 1 vendedor, 2 vendedores, Pix, cartao e pagamento misto.
+- Consultas para extrato do vendedor e comissoes da plataforma.
+
+Slide 7 - Situacao atual e dificuldades
+Titulo: Situacao Atual do Projeto
+Conteudo:
+- API e regras de negocio sao a parte mais consolidada.
+- Painel admin ajuda na visibilidade das operacoes.
+- Web e Mobile ainda precisam sair da base estrutural.
+- Desafio atual: integrar melhor interface, documentacao e validacao final.
+- Proxima maturidade depende de acabamento e integracoes.
+
+Slide 8 - Proximas acoes
+Titulo: Proximas Acoes da Proxima Sprint
+Conteudo:
+- Evoluir as interfaces Web e Mobile.
+- Refinar demonstracao visual e fluxo do usuario.
+- Preparar integracao financeira mais proxima de um gateway real.
+- Ampliar testes, documentacao e validacao final.
+- Consolidar apresentacao e acabamento tecnico do TCC.
+
+Slide 9 - Encerramento
+Titulo: Sintese da Evolucao da Sprint
+Conteudo:
+- O projeto ja demonstra o nucleo de um marketplace funcional.
+- O modulo financeiro representa um salto importante de maturidade.
+- A base tecnica esta mais organizada para as proximas entregas.
+- Proximo foco: interface, refinamento e validacao final.
+
+Orientacoes extras para o gerador:
+- Se houver opcao de notas do apresentador, inclua observacoes curtas e objetivas para cada slide.
+- Use elementos visuais que remetam a arquitetura de software, fluxo de pedido, pagamento e administracao.
+- Evite representar Web e Mobile como produtos finalizados.
+- Destaque o modulo financeiro como principal evolucao desta sprint, sem apagar a visao geral do projeto.
+- Caso seja necessario inserir placeholders, use:
+  - [NOME DA EQUIPE]
+  - [NOME DO ORIENTADOR]
+  - [NUMERO DA SPRINT]

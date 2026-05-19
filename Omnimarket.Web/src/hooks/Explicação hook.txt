@@ -1,0 +1,17 @@
+O que é e para que serve esta pasta??
+
+A pasta de hook é onde guardamos métodos reutilizáveis do typescript, que seriam aqueles que utilizam os useEffect e os useStates
+
+Explicação do chatgpt:
+A pasta “hooks” em um projeto React serve para armazenar funções reutilizáveis que concentram lógicas do próprio React, como controle de estado e efeitos colaterais, utilizando recursos como useState e useEffect. Essas funções são chamadas de “custom hooks” (hooks personalizados) e seguem uma convenção importante: sempre começam com a palavra “use”, como por exemplo “useUsuario” ou “useProdutos”.
+
+O principal objetivo dos hooks é evitar a repetição de código e melhorar a organização do projeto. Em vez de escrever a mesma lógica várias vezes em diferentes componentes (como buscar dados de um usuário ou carregar produtos da API), essa lógica é isolada dentro de um hook e pode ser reutilizada em qualquer parte da aplicação. Assim, quando um componente precisa dessa informação, basta chamar o hook, deixando o código mais limpo, simples e fácil de entender.
+
+Além disso, a separação entre lógica e interface é um dos maiores benefícios. Os componentes ficam responsáveis apenas pela parte visual (o que aparece na tela), enquanto os hooks cuidam da lógica (como os dados são buscados, tratados e armazenados). Isso facilita muito a manutenção e evolução do sistema, especialmente em projetos maiores, como o TCC, onde várias pessoas trabalham no mesmo código.
+
+Outro ponto importante é que, ao centralizar a lógica em hooks, qualquer alteração futura precisa ser feita em apenas um lugar. Por exemplo, se a forma de buscar os dados do usuário mudar, basta alterar o hook correspondente, e todos os componentes que utilizam essa lógica serão automaticamente atualizados.
+
+Em resumo, a pasta “hooks” é uma forma de organizar e reutilizar lógicas importantes do sistema, tornando o código mais profissional, escalável e fácil de manter.
+
+
+

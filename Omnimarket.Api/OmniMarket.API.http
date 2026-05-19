@@ -1,0 +1,6 @@
+@OmniMarket.API_HostAddress = http://localhost:5033
+
+GET {{OmniMarket.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OmniMarket Admin</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main id="login-screen" class="login-shell">
+        <section class="login-panel" aria-labelledby="login-title">
+            <div>
+                <p class="eyebrow">OmniMarket</p>
+                <h1 id="login-title">Area admin</h1>
+            </div>
+
+            <form id="login-form" class="stack">
+                <label>
+                    Email
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label>
+                    Senha
+                    <input id="password" name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <button type="submit" class="primary-action">Entrar</button>
+                <p id="login-message" class="message" role="status"></p>
+            </form>
+        </section>
+    </main>
+
+    <main id="admin-app" class="app-shell hidden">
+        <aside class="sidebar" aria-label="Navegacao admin">
+            <div class="brand">
+                <span class="brand-mark">OM</span>
+                <span>Admin</span>
+            </div>
+
+            <nav class="nav-list">
+                <button class="nav-item active" type="button" data-view="dashboard">Dashboard</button>
+                <button class="nav-item" type="button" data-view="usuarios">Usuarios</button>
+                <button class="nav-item" type="button" data-view="lojas">Lojas</button>
+                <button class="nav-item" type="button" data-view="produtos">Produtos</button>
+                <button class="nav-item" type="button" data-view="pedidos">Pedidos</button>
+                <button class="nav-item" type="button" data-view="financeiro">Financeiro</button>
+            </nav>
+        </aside>
+
+        <section class="workspace">
+            <header class="topbar">
+                <div>
+                    <p class="eyebrow">Marketplace</p>
+                    <h1 id="view-title">Dashboard</h1>
+                </div>
+                <div class="user-area">
+                    <span id="user-label" class="user-label"></span>
+                    <button id="logout-button" class="ghost-action" type="button">Sair</button>
+                </div>
+            </header>
+
+            <section id="status-bar" class="status-bar hidden" role="status"></section>
+            <section id="content" class="content" aria-live="polite"></section>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniMarket.API", "OmniMarket.API.csproj", "{30663921-325C-BB3F-638E-A8B8B63956A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omnimarket.Api.Tests", "Omnimarket.Api.Tests\Omnimarket.Api.Tests.csproj", "{8F8B0C8C-88A5-4AFB-9D01-5CB8E6A1D9B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30663921-325C-BB3F-638E-A8B8B63956A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30663921-325C-BB3F-638E-A8B8B63956A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30663921-325C-BB3F-638E-A8B8B63956A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30663921-325C-BB3F-638E-A8B8B63956A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8B0C8C-88A5-4AFB-9D01-5CB8E6A1D9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8B0C8C-88A5-4AFB-9D01-5CB8E6A1D9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8B0C8C-88A5-4AFB-9D01-5CB8E6A1D9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8B0C8C-88A5-4AFB-9D01-5CB8E6A1D9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B15B185-E8EA-4EE9-9B20-0B1A63A00C5A}
+	EndGlobalSection
+EndGlobal
