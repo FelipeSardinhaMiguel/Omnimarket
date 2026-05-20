@@ -47,12 +47,7 @@ export function SuccessPage() {
         <div className="w-full max-w-2xl bg-[#0f0f0f] rounded-2xl shadow-lg p-8 flex flex-col items-center text-center gap-6">
 
           {/* Ícone de sucesso */}
-          {/*<CheckCircle className="w-20 h-20 text-green-500" />*/}
-          <img
-            src={LogoOmnimarket}
-            alt="Logo do OmniMarket"
-            className="h-24 w-24 rounded-2xl object-cover hover:animate-spin"
-          />
+          <CheckCircle className="w-20 h-20 text-green-500" />
 
           {/* Título principal */}
           <h1 className="text-white font-bold text-[clamp(24px,4vw,40px)]">
